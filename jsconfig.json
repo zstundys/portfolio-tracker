@@ -1,0 +1,12 @@
+{
+  "include": ["pages", "utils", "typings"],
+  "compilerOptions": {
+    "strict": true,
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/utils/*": ["utils/*"]
+    }
+  }
+}

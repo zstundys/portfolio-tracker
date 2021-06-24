@@ -1,3 +1,16 @@
+## Requirements
+
+- `.env.local` with the following contents:
+
+```sh
+GOOGLE_APPLICATION_CREDENTIALS=./secrets.json
+SHEET_ID=XXX
+```
+
+- `.secrets.json` should be retrieved from the https://console.cloud.google.com/
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
